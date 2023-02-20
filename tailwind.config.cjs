@@ -9,8 +9,14 @@ module.exports = {
       colors:{
         navColor: 'rgba(241, 241, 241, 1)',
         textColor: '#3B3A3A',
-        ash: '#F7F7F7'
+        ash: '#F7F7F7',
+        'grey-bg': 'rgb(247, 247, 247)',
+        blueText: '#3D5975'
       },
+      backgroundImage:{
+        insight: "url('src/assets/bg_image.webp')",
+        landscape: "url('src/assets/landscape.webp')"
+      }
     },
   },
   plugins: [],

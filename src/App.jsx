@@ -5,6 +5,16 @@ import OurWork from './components/OurWork'
 import Inudstrial from './assets/Industrial_Smoke.webp'
 import laboratory from './assets/Laboratory_Scientist.webp'
 import crystal from './assets/Crystal_Rock.webp'
+import CountItem from './components/CountItem'
+import Industries from './components/Industries'
+import mining from './assets/mining_and_metals.webp'
+import power from './assets/power.webp'
+import oil from './assets/oil_and_gas.webp'
+import transport from './assets/transport.webp'
+import facebook from './assets/social/facebook.webp'
+import instagram from './assets/social/instagram.webp'
+import linkedin from './assets/social/linkedin.webp'
+import twitter from './assets/social/twitter.webp'
 
 function App() {
   let activeStyle = { backgroundColor: "#000", color: '#fff' }
@@ -12,7 +22,7 @@ function App() {
     return(
       <div>
         <div className='flex flex-col h-screen'>
-          <header className='shadow-md sticky top-0'>
+          <header className='shadow-md sticky top-0 bg-white'>
             <div className='max-w-5xl mx-auto pt-4 pb-8'>
               <img src={logo} alt="Rich flood logo" className='mb-2' height='64'/>
               <nav>
@@ -72,7 +82,7 @@ function App() {
         </div>
         <main className='py-10'>
           <div className="max-w-5xl mx-auto py-8">
-            <h2 className='text-center text-[51px] mb-12 font-bold after:contents-[""] after:block after:h-2 after:w-20 after:mx-auto after:bg-green-700'>Our Work</h2>
+            <h2 className='title'>Our Work</h2>
             <div className='grid grid-cols-3 gap-6 align-stretch'>
               <OurWork 
                 img={Inudstrial}
@@ -101,11 +111,57 @@ function App() {
           </div>
         </main>
 
-        <section>
-          <div className="max-w-5xl mx-auto">
-            
+        <section className='bg-insight relative bg-fixed after:contents-[""] after:h-full after:w-1/2 after:absolute after:top-0 after:left-0  after:bg-grey-bg'>
+          <div className="max-w-5xl mx-auto grid grid-cols-2 pb-2">
+            <div className='z-10 pr-8 text-textColor'>
+              <h2 className='title mb-8'>Insight</h2>
+              <h3 className='text-blueText text-[22px] font-semibold'>Mauritania - Project for Improving Climate Resilience of Water Sector Investments</h3>
+              <p className='text-[17px] leading-8 text-justify'>The government of the Islamic Republic of Mauritania has benefited, from the Global Environment Facility through the African Development Bank (AfDB), from technical and financial support for the implementation of a project called: "Improvement Climate Resilience of Water Sector Investments through Appropriate Climate Adaptation Activities for Pastoral and Forestry Resources in Southern Mauritania (REVIWU). This project aims to restore the natural environment and strengthen the resilience of beneficiary rural households in the Wilayas of Hodh El Chargui, Hodh El Gharbi, Assaba, Gorgol, Brakna, Trarza, Tagant and Guidimakha.</p>
+              <button className="btn">More</button>
+            </div>
           </div>
         </section>
+
+        <section className='bg-[#8FBD7F]'>
+          <div className="max-w-5xl mx-auto">
+            <div className="flex justify-around">
+              <CountItem number='2009' title='Year Established' />
+              <CountItem number='520' title='Projects Completed' />
+              <CountItem number='149' title='Contractors Appointed' />
+              <CountItem number='65' title='Awards Won' />
+            </div>
+          </div>
+        </section>
+
+        <section className='py-8'>
+          <div className="max-w-5xl mx-auto">
+            <h2 className="title mb-8">Industries</h2>
+            <div className="grid grid-cols-2 gap-8">
+              <Industries img={mining} title='Mining and Metals' text='Minerals and Stones' />
+              <Industries img={transport} title="Transport" text="Rapid transit railway" />
+              <Industries img={power} title="Power" text="Power Plant" />
+              <Industries img={oil} title="Oil and Gas" text="Oil derrick" />
+            </div>
+          </div>
+        </section>
+
+        <section className='bg-landscape bg-no-repeat bg-cover pb-12'>
+          <div className="max-w-5xl mx-auto">
+            <p className='w-5/6 max-w-2xl text-center text-[22px] font-semibold bg-ash pt-8 px-8 pb-10 text-blueText'>Investors want business leaders to focus on ESG, or environmental, social and governance metrics. That means progress on ESG isn't just a nice-to-have anymore. It's something shareholders will demand, because they believe it's going to drive everything else they care about.</p>
+          </div>
+        </section>
+
+        <footer className='my-8'>
+          <div className="max-w-5xl mx-auto flex items-center justify-between">
+            <span className='text-[13px] font-medium'>Copyright © 2023 Richflood Ltd., All rights reserved Privacy Policy</span>
+            <ul className='flex gap-2'>
+              <li><img src={linkedin} alt="Social" width='39' /></li>
+              <li><img src={facebook} alt="Social" width='39' /></li>
+              <li><img src={twitter} alt="Social" width='39' /></li>
+              <li><img src={instagram} alt="Social" width='39' /></li>
+            </ul>
+          </div>
+        </footer>
       </div>
     )
 }
