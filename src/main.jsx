@@ -4,11 +4,23 @@ import App from './App'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Consultancy from './pages/Consultancy'
+import Home from './pages/Home'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
+    children: [
+      {
+        index: true,
+        element: <Home />
+      },
+      {
+        path: '/consultancy',
+        element: <Consultancy />
+      }
+    ]
   }
 ])
 
