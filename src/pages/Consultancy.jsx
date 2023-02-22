@@ -100,7 +100,7 @@ function Consultancy() {
                                 <input type="email" placeholder='Email' className='bg-ash w-full px-2 py-1 focus:outline-0 mb-2'/>
                                 <input type="text" placeholder='Subject' className='bg-ash w-full px-2 py-1 focus:outline-0 mb-2'/>
                                 <textarea className='bg-ash w-full px-2 py-1 focus:outline-0 mb-2 h-28' placeholder='Message'/>
-                                <button type='button' className='font-bold transition-all text-[#EDCD1F] bg-[#3B3A3A] ml-auto block px-10 py-2 hover:bg-[#EDCD1F] hover:text-[#3B3A3A]'>Submit</button>
+                                <button type='button' className='font-bold transition-all text-yellow bg-[#3B3A3A] ml-auto block px-10 py-2 hover:bg-yellow hover:text-[#3B3A3A]'>Submit</button>
                             </form>
                             <ContactCard
                                 city='United States'

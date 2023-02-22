@@ -28,6 +28,9 @@
   .btn{
     @apply bg-[#509C35] text-[15px] font-bold h-10 text-white block mt-4 mx-auto hover:bg-green-900
   }
+  .form-input{
+    @apply bg-ash w-full px-2 py-1 focus:outline-0 mb-2
+  }
 }
 
 .industry-wrapper:hover div.absolute{

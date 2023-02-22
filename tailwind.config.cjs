@@ -11,11 +11,13 @@ module.exports = {
         textColor: '#3B3A3A',
         ash: '#F7F7F7',
         'grey-bg': 'rgb(247, 247, 247)',
-        blueText: '#3D5975'
+        blueText: '#3D5975',
+        yellow: '#EDCD1F'
       },
       backgroundImage:{
         insight: "url('src/assets/bg_image.webp')",
-        landscape: "url('src/assets/landscape.webp')"
+        landscape: "url('src/assets/landscape.webp')",
+        project: "url('src/assets/project-header.webp')"
       }
     },
   },

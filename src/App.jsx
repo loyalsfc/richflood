@@ -52,7 +52,7 @@ function App() {
                     </li>
                     <li>
                       <NavLink
-                        to='/Contact Us'
+                        to='/contact-us'
                         style={({isActive}) => 
                           isActive ? activeStyle : undefined
                         }
