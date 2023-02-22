@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
-import logo from './assets/richflood_logo.webp'
+import logo from './assets/Richflood_logo.webp'
 import facebook from './assets/social/facebook.webp'
 import instagram from './assets/social/instagram.webp'
 import linkedin from './assets/social/linkedin.webp'
