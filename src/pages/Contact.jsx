@@ -5,7 +5,7 @@ function Contact() {
     return (
         <main>
             <div className="max-w-5xl mx-auto">
-                <div className='grid grid-cols-2'>
+                <div className='grid grid-cols-2 gap-28'>
                     <article>
                         <h3 className='text-2xl font-bold'>Inquiries</h3>
                         <p className='mb-6'>Please fill Out the following form</p>
@@ -34,6 +34,36 @@ function Contact() {
                             address="71-75 Shelton Street, Covent Garden, London, WC2H 9JQ"
                         />
                         <a href='mailto:info@richflood.com' className='text-2xl font-semibold text-textColor'>Get in touch; info@richflood.com</a>
+                    </article>
+                    <article>
+                        <h4 className="text-3xl font-bold">Head Office</h4>
+                        <p><span className="font-medium">Abuja, Nigeria;</span> 4 Justice Chukwudifo Oputa Street, Asokoro.</p>
+                        <p className='my-8'><span className="font-medium">Lagos, Nigeria ;</span> 6 Chevron Drive, Lekki.</p>
+                        <a href="mailto:richflood@gmail.com" className='underline'>Send an Email</a>
+                        <p className='underline'>Tel: +234 814 524 5247</p>
+                        <p>Office: +44 78 97 073559</p>
+                        <ContactCard
+                            city="West Africa"
+                            address="H140 Forest Avenue, Accra, Ghana."
+                        />
+                        <div className="my-8" />
+                        <ContactCard
+                            city="East Africa"
+                            address="Plot No. 6418, Avenue Du Commerce
+                            Kigali, Rwanda"
+                        />
+                        <ContactCard 
+                            city="South Africa"
+                            address="22 Wellingthon Road, Parktown, 2193 South Africa."
+                        />
+                        <ContactCard 
+                            city="North Africa"
+                            address="Masaken Sheraton, 11799 Cairo, Egypt."
+                        />
+                        <ContactCard 
+                            city="Central Africa"
+                            address="DR Congo."
+                        />
                     </article>
                 </div>
             </div>

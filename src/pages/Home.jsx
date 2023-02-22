@@ -20,7 +20,7 @@ function Home() {
             <main className='py-10'>
                 <div className="max-w-5xl mx-auto py-8">
                     <h2 className='title'>Our Work</h2>
-                    <div className='grid grid-cols-3 gap-6 align-stretch'>
+                    <div className='grid grid-cols-3 gap-6 items-stretch'>
                         <OurWork 
                             img={Inudstrial}
                             title='Environmental and Social Standards'
@@ -30,7 +30,7 @@ function Home() {
                             <p className='mb-8'>Richflood works closely with the public and private sectors in Africa and providing services related to Environmental and Social Governance (ESG)</p>
                         </OurWork>
                         <OurWork 
-                            img={laboratory} 
+                            img={laboratory}
                             title='Laboratories'
                         >
                             <p>Laboratories With our advanced environmental testing lab, we can simulate a wide variety of environmental conditions that your operations may be exposed to irrespective of the sector. Industries benefiting from Richflood state-of-the-art laboratory services include petroleum, chemical, materials, energy, manufacturing, mining, agriculture, electronic, power, pharmaceutical, and more. Richflood Testing follows ASTM, ISO, and local industry standards.</p>
