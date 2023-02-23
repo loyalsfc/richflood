@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -49,23 +49,11 @@
   padding-left: 2rem;
 }
 
-.O1OsFE:before {
-  border-color: transparent transparent transparent rgb(247, 247, 247);
-  border-width: 0 0 200px 500px;
-  left: calc(50% - 1px);
-  right: 0;
-}
-
-.O1OsFE:after {
-  border-color: transparent rgb(247, 247, 247) transparent transparent;
-  border-width: 0 500px 200px 0;
-  right: calc(50% - 1px);
-}
-
-.O1OsFE:after, .O1OsFE:before {
-  border-style: solid;
-  bottom: 1px;
-  content: "";
-  position: absolute;
-  transform: rotate(1turn);
+@media (max-width: 768px) {
+  .consultancies:nth-child(odd) .consultancies-img{
+    padding-right: 0;
+  }
+  .consultancies:nth-child(even) .consultancies-img{
+    padding-left: 0;
+  }
 }

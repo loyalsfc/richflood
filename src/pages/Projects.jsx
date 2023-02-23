@@ -11,11 +11,11 @@ function Projects() {
     return (
         <main>
             <div className="container mx-auto">
-                <article className='text-center text-textColor pt-12  pb-5 bg-project bg-cover bg-norepeat'>
-                    <h2 className='text-[66px] font-bold'>Projects</h2>
-                    <p className='text-xl max-w-[642px] mx-auto'>Find out how Richflood is assisting investors, lenders and borrowers across the African continent and across multiple sectors. Contact any of our offices to discuss your project.</p>
+                <article className='text-center text-textColor pt-12  pb-5 bg-project bg-cover px-4 sm:px-0 bg-norepeat'>
+                    <h2 className='text-4xl leading-[130%] md:text-[66px] font-bold'>Projects</h2>
+                    <p className='text-lg md:text-xl max-w-[642px] mx-auto'>Find out how Richflood is assisting investors, lenders and borrowers across the African continent and across multiple sectors. Contact any of our offices to discuss your project.</p>
                 </article>
-                <section className='grid grid-cols-3 gap-8'>
+                <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4'>
                     <Project
                         title ="Floating LNG Nigeria ESIA" 
                         industry="Oil and Gas"
@@ -60,8 +60,8 @@ function Projects() {
                     />
                 </section>
                 <article className='text-textColor '>   
-                    <p className='text-xl max-w-[642px] mx-auto mt-12 text-center font-medium'>Find out how Richflood is assisting investors, lenders and borrowers across the African continent and across multiple sectors. Contact any of our offices to discuss your project.</p>
-                    <a href="mailto:info@richfood.com?subject=mailus" className='text-2xl text-center block mt-10 font-semibold underline'>Click here to send us a mail</a>
+                    <p className='md:text-xl max-w-[642px] mx-auto mt-12 text-center font-medium'>Find out how Richflood is assisting investors, lenders and borrowers across the African continent and across multiple sectors. Contact any of our offices to discuss your project.</p>
+                    <a href="mailto:info@richfood.com?subject=mailus" className='text-lg md:text-2xl text-center block mt-10 font-semibold underline'>Click here to send us a mail</a>
                 </article>
             </div>
         </main>

@@ -8,19 +8,30 @@ import mining from '../assets/mining_and_metals.webp'
 import power from '../assets/power.webp'
 import oil from '../assets/oil_and_gas.webp'
 import transport from '../assets/transport.webp'
+import { useRef } from 'react'
 
 function Home() {
+    const hero = useRef();
+
+    function scrollDown(){
+        window.scroll({
+            top: hero.current.clientHeight + 100,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
+
     return (
         <>
-            <article className='flex-1 text-[69px] h-[calc(100vh-145px)] grid place-content-center font-bold max-w-3xl text-center mx-auto'>
+            <article ref={hero} className='flex-1 text-5xl leading-[50px] md:leading-[70px] md:text-[69px] h-[calc(100vh-145px)] grid place-content-center font-bold max-w-3xl text-center mx-auto'>
                 <h1>Promoting Sustainable Investments in Africa</h1>
-                <i className="fa-solid fa-angle-down"></i>
+                <i className="fa-solid fa-angle-down" onClick={scrollDown}></i>
             </article>
 
             <main className='py-10'>
                 <div className="max-w-5xl mx-auto py-8">
                     <h2 className='title'>Our Work</h2>
-                    <div className='grid grid-cols-3 gap-6 items-stretch'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch px-4'>
                         <OurWork 
                             img={Inudstrial}
                             title='Environmental and Social Standards'
@@ -48,9 +59,9 @@ function Home() {
                 </div>
             </main>
 
-            <section className='bg-insight relative bg-fixed after:contents-[""] after:h-full after:w-1/2 after:absolute after:top-0 after:left-0  after:bg-grey-bg'>
-                <div className="max-w-5xl mx-auto grid grid-cols-2 pb-2">
-                    <div className='z-10 pr-8 text-textColor'>
+            <section className='bg-insight relative bg-fixed after:contents-[""] pb-4 after:h-full after:w-full sm:after:w-1/2 after:absolute after:top-0 after:left-0  after:bg-grey-bg'>
+                <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 pb-2 px-4 sm:px-0">
+                    <div className='z-10 sm:pr-8 text-textColor'>
                             <h2 className='title mb-8'>Insight</h2>
                             <h3 className='text-blueText text-[22px] font-semibold'>Mauritania - Project for Improving Climate Resilience of Water Sector Investments</h3>
                             <p className='text-[17px] leading-8 text-justify'>The government of the Islamic Republic of Mauritania has benefited, from the Global Environment Facility through the African Development Bank (AfDB), from technical and financial support for the implementation of a project called: "Improvement Climate Resilience of Water Sector Investments through Appropriate Climate Adaptation Activities for Pastoral and Forestry Resources in Southern Mauritania (REVIWU). This project aims to restore the natural environment and strengthen the resilience of beneficiary rural households in the Wilayas of Hodh El Chargui, Hodh El Gharbi, Assaba, Gorgol, Brakna, Trarza, Tagant and Guidimakha.</p>
@@ -61,7 +72,7 @@ function Home() {
 
             <section className='bg-[#8FBD7F]'>
                 <div className="max-w-5xl mx-auto">
-                    <div className="flex justify-around">
+                    <div className="flex flex-col sm:flex-row justify-around">
                         <CountItem number='2009' title='Year Established' />
                         <CountItem number='520' title='Projects Completed' />
                         <CountItem number='149' title='Contractors Appointed' />
@@ -73,7 +84,7 @@ function Home() {
             <section className='py-8'>
                 <div className="max-w-5xl mx-auto">
                     <h2 className="title mb-8">Industries</h2>
-                    <div className="grid grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <Industries img={mining} title='Mining and Metals' text='Minerals and Stones' />
                         <Industries img={transport} title="Transport" text="Rapid transit railway" />
                         <Industries img={power} title="Power" text="Power Plant" />

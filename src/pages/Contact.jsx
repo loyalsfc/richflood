@@ -4,8 +4,8 @@ import ContactCard from '../components/ContactCard'
 function Contact() {
     return (
         <main>
-            <div className="max-w-5xl mx-auto">
-                <div className='grid grid-cols-2 gap-28'>
+            <div className="max-w-5xl mx-auto px-4">
+                <div className='grid grid-cols-1 md:grid-cols-2  gap-28'>
                     <article>
                         <h3 className='text-2xl font-bold'>Inquiries</h3>
                         <p className='mb-6'>Please fill Out the following form</p>

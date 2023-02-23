@@ -23,7 +23,7 @@ function Consultancy() {
                 <div className='relative'>
                     <p className='absolute top-0 right-0 w-[343px] bg-[#EEEEF5] text-xl underline text-center py-3 px-6 font-medium'>DISCOVER OUR SUSTAINABILITY REPORTING SOLUTIONS</p>
                     <img src={laser} alt="" className='ml-auto'/>
-                    <article className='max-w-[585px] absolute text-[17px] text-justify pb-4 top-0 -left-32 pl-32 pr-8 bg-grey-bg'>
+                    <article className='max-w-[585px] md:absolute text-[17px] text-justify px-4 pb-10 md:pb-4  top-0 md:-left-32 md:pl-32 md:pr-8 bg-grey-bg'>
                         <h4 className='text-[2.5rem] font-semibold text-center'>Industries and Services</h4>
                         <p className="mb-5">Sustainable, responsible and impact investing (SRI) is an investment discipline that considers environmental, social and corporate governance (ESG) criteria for the major industries we serve</p>
                         <p className='mb-12'>In consonance with our philosophy to provide excellent and qualitative service for the industries we serve, to maintain effective co-ordination, and meet deadlines, each project is assigned a highly skilled, multi-disciplinary and tested team of professionals equipped with vast knowledge of the African and global business trends.</p>
@@ -48,9 +48,9 @@ function Consultancy() {
                         <p className='mb-5'>Richflood recognises sustainability challenges from generation, transmission, and distribution upgrades in African countries and provides solutions  suitable for different scenarios. We assist borrowers and project proponents better manage environmental and social risks of projects and to improve development outcomes</p>
                     </Consultancies>
                     <Consultancies title='Transportation' img={transportation}>
-                        <p className='mb-4 text-sm'>Modern roads are essential to move goods and people efficiently and open up new areas for development. According to the World Health Organisation, about 1.24 million people die each year on the world’s roads and millions are injured. Facing increased needs for better transport infrastructure (<span className='font-medium'>modernising ports, airports, roads, railroads and urban transport systems essential to development</span>), more governments are recognising that modern, well-maintained roads are key to sustained social and economic development without sacrificing environmental and social considerations.</p>
-                        <p className='mb-4 text-sm'>In developing countries, the lack of proper transport infrastructure can mean the difference between sustainable progress and persistent under-development.</p>
-                        <p className='mb-4 text-sm'>Our analysis of project sustainability from planning through construction, and operational phases are an added advantage through well thought out Environmental and Social Frameworks in line with the World Bank's Standards.</p>
+                        <p className='mb-4 md:text-sm'>Modern roads are essential to move goods and people efficiently and open up new areas for development. According to the World Health Organisation, about 1.24 million people die each year on the world’s roads and millions are injured. Facing increased needs for better transport infrastructure (<span className='font-medium'>modernising ports, airports, roads, railroads and urban transport systems essential to development</span>), more governments are recognising that modern, well-maintained roads are key to sustained social and economic development without sacrificing environmental and social considerations.</p>
+                        <p className='mb-4 md:text-sm'>In developing countries, the lack of proper transport infrastructure can mean the difference between sustainable progress and persistent under-development.</p>
+                        <p className='mb-4 md:text-sm'>Our analysis of project sustainability from planning through construction, and operational phases are an added advantage through well thought out Environmental and Social Frameworks in line with the World Bank's Standards.</p>
                     </Consultancies>
                     <Consultancies title='Water Infrastructure' img={waterpipe}>
                         <p className='mb-5'>Water is at the centre of economic and social development; it is vital to maintain health, grow food, generate energy, manage the environment, and create jobs.</p>
@@ -71,10 +71,10 @@ function Consultancy() {
                     <Consultancies title='Manufacturing' img={manufacturing}>
                         <p>Local and International clients operating in Africa are faced with diverse challenges in the manufacturing sector. Richflood continuously develop smart solutions to meet the needs heads on providing sustainability frameworks, environmental and social risk assessment, impact mitigation measures and follow up with operational processes from planning to decommission phases.  Our solutions cover Cement and Lime Manufacturing, Metal, Plastic, Rubber Products Manufacturing, Printing, Semiconductors and Electronics Manufacturing, Tanning and Leather Finishing, Textiles Manufacturing Base Metal Smelting and Refining, Ceramic Tile and Sanitary Ware Manufacturing, Construction Materials Extraction, Foundries, Glass Manufacturing, Integrated Steel Mills and general manufacturing investments</p>
                     </Consultancies>
-                    <div className='flex flex-row-reverse mb-4 consultancies'>
-                        <div className='w-3/5 shrink-0'>
+                    <div className='flex flex-col md:flex-row-reverse mb-4 consultancies'>
+                        <div className='md:w-3/5 shrink-0'>
                             <img src={generalConsult} alt="" className='w-full'/>
-                            <div className="flex justify-between mr-3 mt-10">
+                            <div className="justify-between mr-3 mt-10 hidden md:flex">
                                 <button className="btn px-6 ">Read More</button>
                                 <button className="btn px-6">Contact Us</button>
                             </div>
@@ -84,14 +84,18 @@ function Consultancy() {
                             <p className='mb-5'>For general infrastructure investment projects, Richflood provides Environmental and Social Governance services by screening performance levels and providing measures that are generally considered to be achievable in new facilities using existing technology at reasonable costs.</p>
                             <p className='mb-5'>We assist investors to set site-specific targets, with an appropriate timetable for achieving them using appropriate Environmental Health and Safety (EHS) standards.</p>
                             <p className='mb-5'>Our services targets Infrastructure investments including but not limited to Ports, Harbours and Terminals, Railways, Airlines, Gas Distribution Systems, Health Care Facilities, Retail Petroleum Networks, Shipping, Telecommunications, Toll Roads, Tourism and Hospitality Developments, Waste Management Facilities, Water and Sanitation, Airports, Crude Oil and Petroleum Product Terminals</p> 
+                            <div className="flex justify-between mr-3  md:hidden">
+                                <button className="btn px-6 ">Read More</button>
+                                <button className="btn px-6">Contact Us</button>
+                            </div>
                         </article>
                     </div>
                 </section>
-                <p className='text-[51px] font-bold underline flex items-center mx-auto w-fit'>Technical Capabilities <img src={arrow} alt="" /></p>
+                <p className='text-3xl md:text-[51px] px-4 font-bold underline flex items-center mx-auto w-fit'>Technical Capabilities <img src={arrow} alt="" className='h-16 md:h-[77px]'/></p>
             </div>
             <div className="bg-white pt-10">
-                <div className="max-w-5xl mx-auto">
-                    <section className='text-base grid grid-cols-2 gap-24'>
+                <div className="max-w-5xl mx-auto px-4 md:px-0">
+                    <section className='text-base grid grid-cols-1 md:grid-cols-2 gap-24'>
                         <div>
                             <h3 className='text-2xl font-bold'>Inquiries</h3>
                             <p>For any inquiries, questions or commendations, please call: +234 905 222 2206 or fill out the following form</p>
