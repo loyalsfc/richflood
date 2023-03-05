@@ -1,13 +1,13 @@
 import OurWork from '../components/OurWork'
-import Inudstrial from '../assets/Industrial_Smoke.webp'
+import Inudstrial from '../assets/new_images/ehs.jpg'
 import laboratory from '../assets/Laboratory_Scientist.webp'
-import crystal from '../assets/Crystal_Rock.webp'
+import mining2 from '../assets/new_images/mining2.jpg'
 import CountItem from '../components/CountItem'
 import Industries from '../components/Industries'
-import mining from '../assets/mining_and_metals.webp'
-import power from '../assets/power.webp'
-import oil from '../assets/oil_and_gas.webp'
-import transport from '../assets/transport.webp'
+import mining from '../assets/new_images/mining.jpg'
+import power from '../assets/new_images/power.jpg'
+import oil from '../assets/new_images/oil_and_gas.jpg'
+import transport from '../assets/new_images/road.jpg'
 import { useRef } from 'react'
 
 function Home() {
@@ -23,12 +23,12 @@ function Home() {
 
     return (
         <>
-            <article ref={hero} className='flex-1 text-5xl leading-[50px] md:leading-[70px] md:text-[69px] h-[calc(100vh-145px)] grid place-content-center font-bold max-w-3xl text-center mx-auto'>
+            <article ref={hero} className='flex-1 text-white text-5xl leading-[50px] md:leading-[70px] md:text-[69px] h-[calc(100vh-145px)] grid place-content-center font-bold max-w-3xl text-center mx-auto'>
                 <h1>Promoting Sustainable Investments in Africa</h1>
                 <i className="fa-solid fa-angle-down" onClick={scrollDown}></i>
             </article>
 
-            <main className='py-10'>
+            <main className='py-10 bg-white'>
                 <div className="max-w-5xl mx-auto py-8">
                     <h2 className='title'>Our Work</h2>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch px-4'>
@@ -49,7 +49,7 @@ function Home() {
                             <p>Our commitment is to provide customers with the best ore characterisation during early, advanced and feasibility phases.</p>
                         </OurWork>
                         <OurWork 
-                            img={crystal} 
+                            img={mining2} 
                             title='Mining and Minerals'
                         >
                             <p className='mb-8'>Richflood help clients keep major mining and metals capital projects on schedule, on budget and on scope by providing consultancy services on metals licensing procedures, licenses maintenance, mineral buying arrangements, facilitation of exploration and exploitation investment processes and providing necessary regulatory documentation required for   optimal operation in the sector. </p>
@@ -81,7 +81,7 @@ function Home() {
                 </div>
             </section>
 
-            <section className='py-8'>
+            <section className='py-8 bg-white'>
                 <div className="max-w-5xl mx-auto">
                     <h2 className="title mb-8">Industries</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -93,9 +93,9 @@ function Home() {
                 </div>
             </section>
 
-            <section className='bg-landscape bg-no-repeat bg-cover pb-12'>
+            <section className='bg-landscape bg-no-repeat bg-cover py-12'>
                 <div className="max-w-5xl mx-auto">
-                    <p className='w-5/6 max-w-2xl text-center text-[22px] font-semibold bg-ash pt-8 px-8 pb-10 text-blueText'>Investors want business leaders to focus on ESG, or environmental, social and governance metrics. That means progress on ESG isn't just a nice-to-have anymore. It's something shareholders will demand, because they believe it's going to drive everything else they care about.</p>
+                    <p className='w-5/6 mx-auto max-w-2xl text-center text-[22px] font-semibold bg-ash pt-8 px-8 pb-10 text-blueText'>Investors want business leaders to focus on ESG, or environmental, social and governance metrics. That means progress on ESG isn't just a nice-to-have anymore. It's something shareholders will demand, because they believe it's going to drive everything else they care about.</p>
                 </div>
             </section>
         </>

@@ -17,7 +17,8 @@ module.exports = {
       backgroundImage:{
         insight: "url('src/assets/bg_image.webp')",
         landscape: "url('src/assets/landscape.webp')",
-        project: "url('src/assets/project-header.webp')"
+        project: "url('src/assets/project-header.webp')",
+        hero: "url('src/assets/new_images/hero-image.jpg')",
       }
     },
   },

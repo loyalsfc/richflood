@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet, Link } from 'react-router-dom'
 import logo from './assets/Richflood_logo.webp'
 import facebook from './assets/social/facebook.webp'
 import instagram from './assets/social/instagram.webp'
@@ -17,7 +17,7 @@ function App() {
   }
 
     return(
-      <div className=''>
+      <div className='bg-hero bg-fixed'>
           <div ref={mobileMenu} className="h-screen w-0 overflow-hidden bg-white z-[51] fixed transition-all top-0 left-0 md:hidden grid place-content-center">
             <i className="fa-solid fa-xmark absolute top-4 right-4 text-2xl" onClick={()=>openMenu('w-full', 'w-0')}></i>
             <ul className='flex flex-col items-center justify-center font-bold gap-5 text-xl'>
@@ -27,18 +27,18 @@ function App() {
           <header className='shadow-md sticky top-0 bg-white z-50 px-4 md:px-0'>
             <div className='max-w-5xl mx-auto pt-4 pb-8'>
               <div className="flex items-center justify-between">
-                <img src={logo} alt="Rich flood logo" className='mb-2 h-10 sm:h-16' />
-                <i className="fa-solid fa-bars text-2xl md:hidden" onClick={()=>openMenu('w-0', 'w-full')}></i>
-              </div>
-              <nav className='hidden md:block'>
+                <Link to="/"><img src={logo} alt="Rich flood logo" className='mb-2 h-10 sm:h-16' /></Link>
+                <nav className='hidden md:block'>
                 <ul className='flex text-[17px] gap-px justify-center'>
                   <Navigation activeStyle={activeStyle} style="nav-links" hideMenu={openMenu}/>
                 </ul>
               </nav>
+                <i className="fa-solid fa-bars text-2xl md:hidden" onClick={()=>openMenu('w-0', 'w-full')}></i>
+              </div>
             </div>
           </header>
         <Outlet />
-        <footer className='my-8 px-4 md:px-0'>
+        <footer className='py-8 px-4 md:px-0 bg-white'>
           <div className="max-w-5xl mx-auto flex flex-col-reverse text-center md:text-left md:flex-row gap-5 items-center justify-between">
             <span className='text-[13px] font-medium'>Copyright © 2023 Richflood Ltd., All rights reserved Privacy Policy</span>
             <ul className='flex gap-2'>
