@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { NavLink, Outlet, Link } from 'react-router-dom'
-import logo from './assets/Richflood_logo.webp'
+import logo from './assets/logo.png'
 import facebook from './assets/social/facebook.webp'
 import instagram from './assets/social/instagram.webp'
 import linkedin from './assets/social/linkedin.webp'

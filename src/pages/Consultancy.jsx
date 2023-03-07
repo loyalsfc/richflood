@@ -10,8 +10,8 @@ import transportation from '../assets/new_images/road_consult.jpg'
 import waterpipe from '../assets/consultancies/Water_pipe.webp'
 import investsmart from '../assets/consultancies/invest_smart.webp'
 import agriculture from '../assets/consultancies/Net_Covering_Crops.webp'
-import climate from '../assets/consultancies/Man_Fixing_Pipe.webp'
-import manufacturing from '../assets/consultancies/Trees_From_Above.webp'
+import climate from '../assets/new_images/ehs_consult.jpg'
+import manufacturing from '../assets/new_images/manufacturing_consult.jpg'
 import generalConsult from '../assets/new_images/general.jpg'
 import arrow from '../assets/arrow.webp'
 import ContactCard from '../components/ContactCard'
@@ -41,11 +41,11 @@ function Consultancy() {
                     <Consultancies title='Agribusines' img={trees}>
                         <p className='mb-3'>Agriculture is inherently risky. we help investors mitigate risks so their investments grow and succeed.</p>
                         <p className='mb-3'>We provide services to help the sector address the ever increasing demand in the Agricultural sector in an environmentally sustainable and socially inclusive way.</p>
-                        <p className='mb-3'>As the agribusiness sector recognises the need to make sustainable use of land, other natural resources and to raise labor standards, we help companies set benchmarks for sustainable production in line with industry best practices. In areas such as sequestering carbon, managing watersheds, preserving biodiversity, and producing renewable energy resources, Richflood works with its clients to achieve success in their projects through improved environmental services.</p>
+                        <p className='mb-3'>As the agribusiness sector recognises the need to make sustainable use of land, other natural resources and to raise labor standards, we help companies set benchmarks for sustainable production in line with industry best practices. In areas such as sequestering carbon, managing watersheds, preserving biodiversity, and producing renewable energy resources, Greenalluvia works with its clients to achieve success in their projects through improved environmental services.</p>
                     </Consultancies>
                     <Consultancies title='Power' img={power}>
                         <p className='mb-5'>Greater reliance on water, wind, solar, biomass and geothermal sources, as well as more efficient energy use, can help create more jobs and foster sustainable economic growth.</p>
-                        <p className='mb-5'>Richflood recognises sustainability challenges from generation, transmission, and distribution upgrades in African countries and provides solutions  suitable for different scenarios. We assist borrowers and project proponents better manage environmental and social risks of projects and to improve development outcomes</p>
+                        <p className='mb-5'>Greenalluvia recognises sustainability challenges from generation, transmission, and distribution upgrades in African countries and provides solutions  suitable for different scenarios. We assist borrowers and project proponents better manage environmental and social risks of projects and to improve development outcomes</p>
                     </Consultancies>
                     <Consultancies title='Transportation' img={transportation}>
                         <p className='mb-4 md:text-sm'>Modern roads are essential to move goods and people efficiently and open up new areas for development. According to the World Health Organisation, about 1.24 million people die each year on the world’s roads and millions are injured. Facing increased needs for better transport infrastructure (<span className='font-medium'>modernising ports, airports, roads, railroads and urban transport systems essential to development</span>), more governments are recognising that modern, well-maintained roads are key to sustained social and economic development without sacrificing environmental and social considerations.</p>
@@ -59,17 +59,17 @@ function Consultancy() {
                     <Consultancies title='Investment Liabilities Due Diligence' img={investsmart}>
                         <p className='mb-5 text-[15px]'>In principle, the financial impacts resulting from some risk exposures can be hedged through strategic asset allocation and portfolio  construction. These are effectively systemic and will require policy action to address  environmental change and enable investors to meet their financial goals.</p>
                         <p className='mb-5 text-[15px]'>Investors are beginning to ask how global environmental trends such as increased pressure on land for food production, soil degradation, localised water stress and extremes of weather will affect the macroeconomic performance of countries, and how this will play out at the industry and firm level.</p>
-                        <p className='mb-5 text-[15px]'>Richflood analytically supports investments and provide professional advise as to how environmental and social risks associated with investments can be minimised.</p>
+                        <p className='mb-5 text-[15px]'>Greenalluvia analytically supports investments and provide professional advise as to how environmental and social risks associated with investments can be minimised.</p>
                     </Consultancies>
                     <Consultancies title='Climate Smart Agriculture' img={agriculture}>
                         <p className='mb-4'>More and more countries in Africa are seeing climate-smart agriculture (CSA) as a solution to diverse challenges. CSA is an integrated approach to managing landscapes that boosts productivity, enhances resilience and reduces greenhouse gas emissions. </p>
                         <p className='mb-4'>Our CSA Investment Plans (developed for private and public sectors investors) identify concrete actions that can be taken to boost climate-smart agriculture, both in the form of investment opportunities and policy design and implementation.</p>
                     </Consultancies>
                     <Consultancies title='EHS Standards' img={climate}>
-                        <p>We are conscious of the continuous standardisation of the Environmental Health and Safety requirements for investment projects in line with Good International Industry Practice (GIIP). We thoroughly examine each project's peculiarity to develop and implement Community Health and Safety Guidelines, Constructions and decommissioning Guidelines, Occupational Health and Safety Guidelines and relevant plans necessary for investment sustainability. Richflood project screening for EHS could consider Water Quality and Availability, Structural Safety of Project Infrastructure, Life and Fire Safety (L&FS), Traffic Safety, Transport of Hazardous Materials, Disease Prevention, Emergency Preparedness and Response,  Biological Hazards, Radiological Hazards and determination of Special Hazard Environments. </p>
+                        <p>We are conscious of the continuous standardisation of the Environmental Health and Safety requirements for investment projects in line with Good International Industry Practice (GIIP). We thoroughly examine each project's peculiarity to develop and implement Community Health and Safety Guidelines, Constructions and decommissioning Guidelines, Occupational Health and Safety Guidelines and relevant plans necessary for investment sustainability. Greenalluvia project screening for EHS could consider Water Quality and Availability, Structural Safety of Project Infrastructure, Life and Fire Safety (L&FS), Traffic Safety, Transport of Hazardous Materials, Disease Prevention, Emergency Preparedness and Response,  Biological Hazards, Radiological Hazards and determination of Special Hazard Environments. </p>
                     </Consultancies>
                     <Consultancies title='Manufacturing' img={manufacturing}>
-                        <p>Local and International clients operating in Africa are faced with diverse challenges in the manufacturing sector. Richflood continuously develop smart solutions to meet the needs heads on providing sustainability frameworks, environmental and social risk assessment, impact mitigation measures and follow up with operational processes from planning to decommission phases.  Our solutions cover Cement and Lime Manufacturing, Metal, Plastic, Rubber Products Manufacturing, Printing, Semiconductors and Electronics Manufacturing, Tanning and Leather Finishing, Textiles Manufacturing Base Metal Smelting and Refining, Ceramic Tile and Sanitary Ware Manufacturing, Construction Materials Extraction, Foundries, Glass Manufacturing, Integrated Steel Mills and general manufacturing investments</p>
+                        <p>Local and International clients operating in Africa are faced with diverse challenges in the manufacturing sector. Greenalluvia continuously develop smart solutions to meet the needs heads on providing sustainability frameworks, environmental and social risk assessment, impact mitigation measures and follow up with operational processes from planning to decommission phases.  Our solutions cover Cement and Lime Manufacturing, Metal, Plastic, Rubber Products Manufacturing, Printing, Semiconductors and Electronics Manufacturing, Tanning and Leather Finishing, Textiles Manufacturing Base Metal Smelting and Refining, Ceramic Tile and Sanitary Ware Manufacturing, Construction Materials Extraction, Foundries, Glass Manufacturing, Integrated Steel Mills and general manufacturing investments</p>
                     </Consultancies>
                     <div className='flex flex-col md:flex-row-reverse mb-4 consultancies'>
                         <div className='md:w-3/5 shrink-0'>
@@ -81,7 +81,7 @@ function Consultancy() {
                         </div>
                         <article className='flex flex-col justify-between text-justify text-[17px] px-4'>
                             <h4 className='text-[38px] leading-10 font-medium mb-4 text-[#1E2D3B] text-center'>General Infrastructure</h4>
-                            <p className='mb-5'>For general infrastructure investment projects, Richflood provides Environmental and Social Governance services by screening performance levels and providing measures that are generally considered to be achievable in new facilities using existing technology at reasonable costs.</p>
+                            <p className='mb-5'>For general infrastructure investment projects, Greenalluvia provides Environmental and Social Governance services by screening performance levels and providing measures that are generally considered to be achievable in new facilities using existing technology at reasonable costs.</p>
                             <p className='mb-5'>We assist investors to set site-specific targets, with an appropriate timetable for achieving them using appropriate Environmental Health and Safety (EHS) standards.</p>
                             <p className='mb-5'>Our services targets Infrastructure investments including but not limited to Ports, Harbours and Terminals, Railways, Airlines, Gas Distribution Systems, Health Care Facilities, Retail Petroleum Networks, Shipping, Telecommunications, Toll Roads, Tourism and Hospitality Developments, Waste Management Facilities, Water and Sanitation, Airports, Crude Oil and Petroleum Product Terminals</p> 
                             <div className="flex justify-between mr-3  md:hidden">
@@ -112,7 +112,7 @@ function Consultancy() {
                                 tel='Tel: +1 202 446 0249'
                             />
 
-                            <p className='text-2xl font-semibold'>Get in touch; info@richflood.com</p>
+                            <p className='text-2xl font-semibold'>Get in touch; info@Greenalluvia.com</p>
                         </div>
                         <div>
                             <ContactCard

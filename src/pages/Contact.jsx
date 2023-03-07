@@ -3,7 +3,7 @@ import ContactCard from '../components/ContactCard'
 
 function Contact() {
     return (
-        <main>
+        <main className='bg-white'>
             <div className="max-w-5xl mx-auto px-4">
                 <div className='grid grid-cols-1 md:grid-cols-2  gap-28'>
                     <article>
@@ -33,13 +33,13 @@ function Contact() {
                             city='United Kingdom'
                             address="71-75 Shelton Street, Covent Garden, London, WC2H 9JQ"
                         />
-                        <a href='mailto:info@richflood.com' className='text-2xl font-semibold text-textColor'>Get in touch; info@richflood.com</a>
+                        <a href='mailto:info@greenalluvia.com' className='text-2xl font-semibold text-textColor'>Get in touch; info@greenalluvia.com</a>
                     </article>
                     <article>
                         <h4 className="text-3xl font-bold">Head Office</h4>
                         <p><span className="font-medium">Abuja, Nigeria;</span> 4 Justice Chukwudifo Oputa Street, Asokoro.</p>
                         <p className='my-8'><span className="font-medium">Lagos, Nigeria ;</span> 6 Chevron Drive, Lekki.</p>
-                        <a href="mailto:richflood@gmail.com" className='underline'>Send an Email</a>
+                        <a href="mailto:greenalluvia@gmail.com" className='underline'>Send an Email</a>
                         <p className='underline'>Tel: +234 814 524 5247</p>
                         <p>Office: +44 78 97 073559</p>
                         <ContactCard
