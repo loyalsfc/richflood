@@ -2,17 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import laser from '../assets/Laser_Cutting_Steel.webp'
 import Consultancies from '../components/Consultancies'
-import coalmine from '../assets/consultancies/coal_mine.webp'
-import oiltank from '../assets/consultancies/oil_tanks.webp'
-import trees from '../assets/consultancies/Christmas_Tree_Farm.webp'
-import power from '../assets/consultancies/Power_Plant.webp'
-import transportation from '../assets/consultancies/Urban_Railway_Tracks.webp'
+import coalmine from '../assets/new_images/mining_consult.jpg'
+import oiltank from '../assets/new_images/oil_consult.jpg'
+import trees from '../assets/new_images/agriculture_consult.jpg'
+import power from '../assets/new_images/power_consult.jpg'
+import transportation from '../assets/new_images/road_consult.jpg'
 import waterpipe from '../assets/consultancies/Water_pipe.webp'
 import investsmart from '../assets/consultancies/invest_smart.webp'
 import agriculture from '../assets/consultancies/Net_Covering_Crops.webp'
 import climate from '../assets/consultancies/Man_Fixing_Pipe.webp'
 import manufacturing from '../assets/consultancies/Trees_From_Above.webp'
-import generalConsult from '../assets/consultancies/general_image.webp'
+import generalConsult from '../assets/new_images/general.jpg'
 import arrow from '../assets/arrow.webp'
 import ContactCard from '../components/ContactCard'
 
@@ -20,14 +20,14 @@ function Consultancy() {
     return (
         <main className='bg-[#e5e5e5]'>
             <div className="max-w-5xl mx-auto bg-white">
-                <div className='relative'>
-                    <p className='absolute top-0 right-0 w-[343px] bg-[#EEEEF5] text-xl underline text-center py-3 px-6 font-medium'>DISCOVER OUR SUSTAINABILITY REPORTING SOLUTIONS</p>
-                    <img src={laser} alt="" className='ml-auto'/>
-                    <article className='max-w-[585px] md:absolute text-[17px] text-justify px-4 pb-10 md:pb-4  top-0 md:-left-32 md:pl-32 md:pr-8 bg-grey-bg'>
+                <div className='relative bg-laser'>
+                    {/* <p className='absolute top-0 right-0 w-[343px] bg-[#EEEEF5] text-xl underline text-center py-3 px-6 font-medium'>DISCOVER OUR SUSTAINABILITY REPORTING SOLUTIONS</p> */}
+                    {/* <img src={laser} alt="" className='ml-auto'/> */}
+                    <article className='text-[17px] text-justify px-4 pb-10 md:pb-4 py-10 text-white'>
                         <h4 className='text-[2.5rem] font-semibold text-center'>Industries and Services</h4>
                         <p className="mb-5">Sustainable, responsible and impact investing (SRI) is an investment discipline that considers environmental, social and corporate governance (ESG) criteria for the major industries we serve</p>
                         <p className='mb-12'>In consonance with our philosophy to provide excellent and qualitative service for the industries we serve, to maintain effective co-ordination, and meet deadlines, each project is assigned a highly skilled, multi-disciplinary and tested team of professionals equipped with vast knowledge of the African and global business trends.</p>
-                        <Link><span className='text-center block underline text-[17px] text-blueText font-bold'>Contact us to discuss your investment</span></Link>
+                        <Link><span className='text-center block underline text-[17px] text-[#509C35] font-bold'>Contact us to discuss your investment</span></Link>
                     </article>
                 </div>
                 <section className='mx-3 py-6'>
