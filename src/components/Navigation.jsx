@@ -15,7 +15,7 @@ function Navigation({activeStyle, style, hideMenu}) {
                     Home
                 </NavLink>
             </li>
-            <li onClick={()=>hideMenu('w-full', 'w-0')}>
+            {/* <li onClick={()=>hideMenu('w-full', 'w-0')}>
                 <NavLink 
                     to="/consultancy"
                     style={({isActive}) => 
@@ -25,7 +25,7 @@ function Navigation({activeStyle, style, hideMenu}) {
                 >
                     Consultancies
                 </NavLink>
-            </li>
+            </li> */}
             <li onClick={()=>hideMenu('w-full', 'w-0')}>
                 <NavLink
                     to="/project"

@@ -25,7 +25,7 @@ function App() {
             </ul>
           </div>
           <header className='shadow-md sticky top-0 bg-white z-50 px-4 md:px-0'>
-            <div className='max-w-5xl mx-auto pt-4 pb-8'>
+            <div className='container mx-auto pt-4 pb-8'>
               <div className="flex items-center justify-between">
                 <Link to="/"><img src={logo} alt="Rich flood logo" className='mb-2 h-10 sm:h-16' /></Link>
                 <nav className='hidden md:block'>
