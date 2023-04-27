@@ -15,11 +15,11 @@ module.exports = {
         yellow: '#EDCD1F'
       },
       backgroundImage:{
-        insight: "url('./src/assets/bg_image.webp')",
-        landscape: "url('./src/assets/landscape.webp')",
-        project: "url('./src/assets/project-header.webp')",
-        hero: "url('./src/assets/new_images/hero-image.jpg')",
-        laser: "url('./src/assets/Laser_Cutting_Steel.webp')"
+        insight: "url('/src/assets/bg_image.webp')",
+        landscape: "url('/src/assets/landscape.webp')",
+        project: "url('/src/assets/project-header.webp')",
+        hero: "url('/src/assets/new_images/hero-image.jpg')",
+        laser: "url('/src/assets/Laser_Cutting_Steel.webp')"
       }
     },
   },
