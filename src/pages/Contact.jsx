@@ -1,10 +1,14 @@
 import React from 'react'
 import ContactCard from '../components/ContactCard'
+import map from '../assets/maps.png'
 
 function Contact() {
     return (
         <main className='bg-white'>
             <div className="max-w-5xl mx-auto px-4">
+                <a className='block mb-8' href='https://maps.app.goo.gl/RbEvtWvUa4QDccCA6'>
+                    <img src={map} alt='map' />
+                </a>
                 <div className='grid grid-cols-1 md:grid-cols-2  gap-28'>
                     <article>
                         <h3 className='text-2xl font-bold'>Inquiries</h3>
