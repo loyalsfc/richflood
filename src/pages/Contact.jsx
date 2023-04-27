@@ -30,43 +30,42 @@ function Contact() {
                             <button className='block ml-auto font-bold text-white bg-green-600  hover:bg-green-800 transition-all py-2 px-8'>Submit</button>
                         </form>
                         <ContactCard
-                            city="United States"
-                            address='416192 Coastal Hwy, Lewes, DE, USA'
+                            city="Lorem Ipsum"
+                            address='Lorem, 355, ameno bula corngh'
                         />
                         <ContactCard
-                            city='United Kingdom'
-                            address="71-75 Shelton Street, Covent Garden, London, WC2H 9JQ"
+                            city='Lorem Ipsum'
+                            address="Lorem, 355, ameno bula corngh"
                         />
                         <a href='mailto:info@greenalluvia.com' className='text-2xl font-semibold text-textColor'>Get in touch; info@greenalluvia.com</a>
                     </article>
                     <article>
                         <h4 className="text-3xl font-bold">Head Office</h4>
-                        <p><span className="font-medium">Abuja, Nigeria;</span> 4 Justice Chukwudifo Oputa Street, Asokoro.</p>
-                        <p className='my-8'><span className="font-medium">Lagos, Nigeria ;</span> 6 Chevron Drive, Lekki.</p>
+                        <p><span className="font-medium">Ipsum, Manomi;</span> 4 Lorem ipsum dolor sit, amet consectetur adipisicing .</p>
+                        <p className='my-8'><span className="font-medium">Imuson, Lorem ;</span> 6 laborum numquam.</p>
                         <a href="mailto:greenalluvia@gmail.com" className='underline'>Send an Email</a>
-                        <p className='underline'>Tel: +234 814 524 5247</p>
-                        <p>Office: +44 78 97 073559</p>
+                        <p className='underline'>Tel: +234 814 123 4567</p>
+                        <p className='mb-2'>Office: +44 12 34 567890</p>
                         <ContactCard
-                            city="West Africa"
-                            address="H140 Forest Avenue, Accra, Ghana."
+                            city="Lorem Ipsum"
+                            address="Lorem, 355, ameno bula corngh"
                         />
                         <div className="my-8" />
                         <ContactCard
-                            city="East Africa"
-                            address="Plot No. 6418, Avenue Du Commerce
-                            Kigali, Rwanda"
+                            city="Lorem Ipsum"
+                            address="Lorem, 355, ameno bula cornghe"
                         />
                         <ContactCard 
-                            city="South Africa"
-                            address="22 Wellingthon Road, Parktown, 2193 South Africa."
+                            city="Lorem Ipsum"
+                            address="22 Ameno doretus Ipsum lorem labudjd."
                         />
                         <ContactCard 
-                            city="North Africa"
-                            address="Masaken Sheraton, 11799 Cairo, Egypt."
+                            city="Lorem Ipsum"
+                            address="Lorem, 355, ameno bula corngh"
                         />
                         <ContactCard 
-                            city="Central Africa"
-                            address="DR Congo."
+                            city="Lorem Ipsum"
+                            address="Lorem, 355, ameno bula corngh"
                         />
                     </article>
                 </div>

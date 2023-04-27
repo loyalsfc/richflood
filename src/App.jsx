@@ -40,7 +40,7 @@ function App() {
         <Outlet />
         <footer className='py-8 px-4 md:px-0 bg-white'>
           <div className="max-w-5xl mx-auto flex flex-col-reverse text-center md:text-left md:flex-row gap-5 items-center justify-between">
-            <span className='text-[13px] font-medium'>Copyright © 2023 Richflood Ltd., All rights reserved Privacy Policy</span>
+            <span className='text-[13px] font-medium'>Copyright © 2023 Greenalluvia Ltd., All rights reserved Privacy Policy</span>
             <ul className='flex gap-2'>
               <li><img src={linkedin} alt="Social" width='39' /></li>
               <li><img src={facebook} alt="Social" width='39' /></li>
