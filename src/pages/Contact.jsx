@@ -29,43 +29,25 @@ function Contact() {
                             <textarea name="" id="" className='form-input' placeholder='Message' cols="" rows="5"/>
                             <button className='block ml-auto font-bold text-white bg-green-600  hover:bg-green-800 transition-all py-2 px-8'>Submit</button>
                         </form>
-                        <ContactCard
-                            city="Lorem Ipsum"
-                            address='Lorem, 355, ameno bula corngh'
-                        />
-                        <ContactCard
-                            city='Lorem Ipsum'
-                            address="Lorem, 355, ameno bula corngh"
-                        />
-                        <a href='mailto:info@greenalluvia.com' className='text-2xl font-semibold text-textColor'>Get in touch; info@greenalluvia.com</a>
+                        <a href='mailto:greenalluvia@gmail.com' className='text-2xl mt-8 block font-semibold text-textColor'>Get in touch; greenalluvia@gmail.com</a>
                     </article>
                     <article>
                         <h4 className="text-3xl font-bold">Head Office</h4>
-                        <p><span className="font-medium">Ipsum, Manomi;</span> 4 Lorem ipsum dolor sit, amet consectetur adipisicing .</p>
-                        <p className='my-8'><span className="font-medium">Imuson, Lorem ;</span> 6 laborum numquam.</p>
+                        <p className='mb-4'><span className="font-semibold">Abuja Office</span> <br/>
+                            #4, (Flat 4), <br/>
+                            Koforidua Street,  <br/>
+                            wuse Zone 2, Abuja.
+                        </p>
                         <a href="mailto:greenalluvia@gmail.com" className='underline'>Send an Email</a>
-                        <p className='underline'>Tel: +234 814 123 4567</p>
-                        <p className='mb-2'>Office: +44 12 34 567890</p>
+                        <p className='underline mb-8'><a href="tel:+2347032763580">Tel: +234 703 2763 580</a></p>
                         <ContactCard
-                            city="Lorem Ipsum"
-                            address="Lorem, 355, ameno bula corngh"
+                            city="Kaduna Office"
+                            address="10, Dahono Street, Sabon Tasha, Kaduna State"
                         />
                         <div className="my-8" />
                         <ContactCard
-                            city="Lorem Ipsum"
-                            address="Lorem, 355, ameno bula cornghe"
-                        />
-                        <ContactCard 
-                            city="Lorem Ipsum"
-                            address="22 Ameno doretus Ipsum lorem labudjd."
-                        />
-                        <ContactCard 
-                            city="Lorem Ipsum"
-                            address="Lorem, 355, ameno bula corngh"
-                        />
-                        <ContactCard 
-                            city="Lorem Ipsum"
-                            address="Lorem, 355, ameno bula corngh"
+                            city="Yola Office"
+                            address="Gibson Jalo Road, Opp. Azuri Club Junction Jimeta Yola"
                         />
                     </article>
                 </div>
